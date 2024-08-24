@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Loja de carros</title>
+</head>
+
+<body>
+
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand">
+                <a href="#">
+                    <i class="bi bi-car-front-fill"></i>
+                    Loja de carros
+                </a>
+            </h1>
+            <button data-bs-toggle="collapse" data-bs-target="#menu-navegacao" class="navbar-toggler">
+                <span>
+                    <i class="bi bi-list fs-3"></i>
+                </span>
+            </button>
+            <nav id="menu-navegacao" class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-lg-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#modelos">
+                            Modelos de veículos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contato">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+
+
+        <section id="home">
+            <div class="pt-5 pb-5 mb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p class="fw-bold fs-3">Lorem ipsum dolor sit.</p>
+                            <h1 class="title mb-5 fs-1 fw-bold">Lorem <span>ipsum</span> dolor sit amet consectetur.
+                            </h1>
+                            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda impedit
+                                aut rerum id optio tempora perspiciatis.</p>
+                            <button class="btn botao mt-5" type="button">
+                                Saiba mais
+                                <i class="bi bi-caret-right-fill"></i>
+                            </button>
+                        </div>
+                        <div class="col-lg-8">
+                            <img class="d-block w-100"
+                                src="https://cdn.pixabay.com/photo/2015/10/01/17/17/car-967387_1280.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-sobre" class="pt-5 pb-5 mt-5 mb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 id="sobre" class="fw-bold text-center titulo mb-5">Sobre a loja</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <i class="bi bi-car-front-fill icones-style"></i>
+                        <h2 class="mt-5">Escolha um carro</h2>
+                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dicta excepturi
+                            vitae nobis sint atque veniam temporibus error cupiditate eos ab amet, ut id tenetur dolorum
+                            sit, porro provident repellat.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="bi bi-person-arms-up icones-style"></i>
+                        <h2 class="mt-5">Serviços</h2>
+                        <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam animi veniam
+                            odit deleniti beatae maiores deserunt, reiciendis quae consectetur at culpa nobis rerum, hic
+                            dignissimos ipsa libero molestiae optio nihil!</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="bi bi-emoji-heart-eyes-fill icones-style"></i>
+                        <h2 class="mt-5">Saia dirigindo</h2>
+                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae velit,
+                            dignissimos a laudantium ipsum repudiandae aliquam porro minus! Illo, culpa! Quidem nobis
+                            fugiat possimus repellendus enim autem atque ipsum corrupti?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row pb-5 pt-5">
+                    <h2 class="fw-bold text-center fs-2">Perguntas frequentes</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="d-block w-100"
+                            src="https://cdn.pixabay.com/photo/2022/09/15/12/05/car-7456331_1280.png" alt="">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        1. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, provident
+                                            consequuntur libero consequatur ipsum tempora officiis amet, dolorum
+                                            pariatur rerum ad quos ullam quibusdam. Ab natus fugit nihil impedit
+                                            temporibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        2. Lorem ipsum dolor sit amet.
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid enim quae
+                                            ad fugiat, tempore facere dolores nesciunt rem nisi adipisci amet veniam
+                                            harum corrupti explicabo error? Quas earum laudantium voluptatum?Lorem ipsum
+                                            dolor sit amet, consectetur adipisicing elit. Repellat veritatis officia
+                                            deleniti quae ipsum tenetur cupiditate? Quod aut odit voluptatem id
+                                            molestiae exercitationem! Quibusdam, animi! Voluptate quo explicabo quod
+                                            hic.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        3. Lorem ipsum dolor sit amet consectetur adipisicing
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi alias, debitis
+                                            eligendi pariatur tempora, ratione dolorem totam inventore porro sunt enim
+                                            eum maxime voluptates. Sapiente doloribus ullam accusantium vero harum!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="section-sobre" class="pt-5 pb-5 mt-5 mb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 id="modelos" class="fw-bold text-center mb-5 titulo">Conheça nossos veículos</h2>
+                </div>
+                <div class="row">
+
+                    <aside class="col-lg-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button data-bs-toggle="tab" data-bs-target="#lamborghini" type="button"
+                                class="nav-link text-colored fw-bold text-start bota-abas active mb-2">Lamborghini</button>
+                            <button data-bs-toggle="tab" data-bs-target="#mercedez" type="button"
+                                class="nav-link text-colored fw-bold text-start bota-abas mb-2">Mercedes</button>
+                            <button data-bs-toggle="tab" data-bs-target="#volkswagen" type="button"
+                                class="nav-link text-colored fw-bold text-start bota-abas mb-2">Volkswagen</button>
+                            <button data-bs-toggle="tab" data-bs-target="#corvette" type="button"
+                                class="nav-link text-colored fw-bold text-start bota-abas mb-2">Chervrolet</button>
+                        </nav>
+                    </aside>
+
+                    <div class="col-lg-10">
+
+                        <div class="tab-content">
+
+                            <div id="lamborghini" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-8 mt-5">
+                                        <img class="d-block w-100"
+                                            src="https://cdn.pixabay.com/photo/2012/04/12/23/47/car-30984_1280.png"
+                                            alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <table class="table">
+                                            <thead class="text-center fw-bold fs-3">
+                                                <tr>
+                                                    <th>R$400.000,00</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-center">
+                                                <tr>
+                                                    <td>Modelo -- Lamborghini </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Marca -- Aventador </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ano -- 2012 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Portas -- 2 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Trasmissão -- Aut. </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Combustível -- Gas. </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="btn d-block w-100 botao fw-bold">Compre agora</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="mercedez" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-8 mt-5">
+                                        <img class="d-block w-100"
+                                            src="https://cdn.pixabay.com/photo/2016/04/17/22/10/mercedes-benz-1335674_1280.png"
+                                            alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <table class="table">
+                                            <thead class="text-center fw-bold fs-3">
+                                                <tr>
+                                                    <th>R$122.000,00</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-center">
+                                                <tr>
+                                                    <td>Modelo -- Mecerdez </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Marca -- AMG GT C </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ano -- 2008 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Portas -- 2 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Trasmissão -- Aut. </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Combustível -- Gas. </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="btn d-block w-100 botao fw-bold">Compre agora</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="volkswagen" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img class="d-block w-100"
+                                            src="https://cdn.pixabay.com/photo/2020/08/10/23/42/car-5478936_1280.png"
+                                            alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <table class="table">
+                                            <thead class="text-center fw-bold fs-3">
+                                                <tr>
+                                                    <th>R$159.000,00</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-center">
+                                                <tr>
+                                                    <td>Modelo -- Volkswagen </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Marca -- Golf GTI </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ano -- 2020 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Portas -- 4 </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Trasmissão -- Man. </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Combustível -- Gas. </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="btn d-block w-100 botao fw-bold">Compre agora</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="corvette" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-8 mt-5">
+                                        <img class="d-block w-100"
+                                            src="https://cdn.pixabay.com/photo/2013/07/12/13/21/sports-car-146873_1280.png"
+                                            alt="">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <table class="table">
+                                            <thead class="text-center fw-bold fs-3">
+                                                <tr>
+                                                    <th>R$1.400.000,00</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-center">
+                                                <tr>
+                                                    <td>Modelo -- Chervrolet</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Marca -- Corvette </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ano -- 2024</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Portas -- 2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Trasmissão -- Aut.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Combustível -- Gas.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <button class="btn d-block w-100 botao fw-bold">Compre agora</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+        <section id="section-contato" class="pt-5 pb-5 mt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 id="contato" class="titulo text-center fw-bold">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="nome">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required placeholder="John Doe">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="email">Seu e-mail:</label>
+                                <input type="email" id="email" class="form-control" required
+                                    placeholder="exemplo@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="telefone">Seu telefone
+                                    (opcional):</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="mensagem">Mensagem:</label>
+                                <textarea id="mensagem" class="form-control" rows="10" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold botao">Enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="col-md-5 text-center">
+                        <div class="row">
+                            <h3 class="titulo fs-4 text-colored">
+                                <i class="text-colored bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="text-colored bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="text-colored bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="text-colored bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4 text-center">
+                            <h3 class="titulo fs-4 text-colored">
+                                <i class="text-colored bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p class="fw-bold"><i>Rua Qualquer Nº 123, Bairro Site de Carros - São Paulo - SP</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p class="text-center fw-bold p-3 m-0">&copy;2024 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#telefone').mask('(00) 0000-0000', {placeholder: "(00) 0000-0000"});
+        });
+    </script>
+</body>
+
+</html>
