@@ -41,6 +41,10 @@
     color: #ff3614;
 }
 
+#home .carousel .carousel-inner .carousel-item img{
+    height: 336px;
+}
+
 .botao{
     background-color: #ff3614;
     color: #fff;
@@ -64,10 +68,14 @@
     font-size: 50px;
 }
 
-#section-sobre .nav-link.active{
+#section-veiculos .nav-link.active{
     background-color: #fff;
     color: #ff3614;
     border: 2px solid #ff3614;
+}
+
+#section-veiculos .tab-content .tab-pane img{
+    height: 310px;
 }
 
 .titulo{
