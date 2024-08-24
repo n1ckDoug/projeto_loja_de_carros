@@ -71,9 +71,21 @@
                             </button>
                         </div>
                         <div class="col-lg-8">
-                            <img class="d-block w-100"
-                                src="https://cdn.pixabay.com/photo/2015/10/01/17/17/car-967387_1280.png" alt="">
+                            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active p-5" data-bs-interval="10000">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/10/01/17/17/car-967387_1280.png" alt="">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="10000">
+                                        <img src="https://cdn.pixabay.com/photo/2013/07/12/12/56/ford-mustang-146580_1280.png" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="10000">
+                                        <img src="https://cdn.pixabay.com/photo/2015/09/12/21/31/car-937414_1280.png" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -450,7 +462,7 @@
 
     <script>
         $(document).ready(function () {
-            $('#telefone').mask('(00) 0000-0000', {placeholder: "(00) 0000-0000"});
+            $('#telefone').mask('(00) 0000-0000', { placeholder: "(00) 0000-0000" });
         });
     </script>
 </body>
